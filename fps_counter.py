@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 camera = cv2.VideoCapture(0)
-
+ 
 lower_blue = np.array([100, 150, 50])
 upper_blue = np.array([140, 255, 255])
 
